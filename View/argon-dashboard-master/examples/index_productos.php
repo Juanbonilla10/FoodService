@@ -118,7 +118,9 @@
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label for="exampleFormControlTextarea1">Cliente</label>
-                                                <input class="form-control" type="text" value="Juan Carlos" id="example-time-input">
+                                                <select class="form-control">
+                                                    <option>Escoja el cliente</option>
+                                                </select>
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label for="example-time-input" class="form-control-label">Cantidad</label>

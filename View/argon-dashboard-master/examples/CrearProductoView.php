@@ -111,7 +111,7 @@
                                                         <label for="example-text-input" class="form-control-label">Descripcion</label>
                                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                                     </div>
-                                                   
+
                                                 </div>
                                             </form>
                                         </div>
@@ -167,20 +167,20 @@
                             <table class="table align-items-center">
                                 <thead class="thead-light">
                                     <tr>
-                                        <th>Id</th>
+                                        <th>Plu</th>
                                         <th>Categoria</th>
                                         <th>Nombre</th>
                                         <th>Descripcion</th>
                                         <th>Precio</th>
-                                        <th>Plu</th>
                                         <th>Estado</th>
                                         <th>Proveedor</th>
+                                        <th>Accion</th>
                                     </tr>
                                 </thead>
                                 <tbody class="list">
                                     <tr>
                                         <td class="budget">
-                                            1
+                                            4545
                                         </td>
                                         <td class="budget">
                                             Hamburguesas
@@ -193,9 +193,6 @@
                                         </td>
                                         <td class="budget">
                                             15000
-                                        </td>
-                                        <td class="budget">
-                                            4545
                                         </td>
                                         <td class="budget">
                                             Disponible
