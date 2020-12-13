@@ -1,0 +1,21 @@
+.color_fondo {
+    background-color: #f52f41
+}
+
+.inputs_manipulados {
+    width: 75%;
+    margin: auto;
+    height: 38px;
+}
+
+.labels_manipulados {
+    margin-left: 42%;
+}
+
+.color_comm {
+    color: rgb(17, 26, 26);
+}
+
+.autop {
+    margin: auto;
+}
