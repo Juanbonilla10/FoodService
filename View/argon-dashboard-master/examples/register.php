@@ -46,8 +46,8 @@
             </div>
             <div class="separator separator-bottom separator-skew zindex-100">
                 <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
+                    <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
+                </svg>
             </div>
         </div>
         <!-- Page content -->
@@ -72,6 +72,28 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                         </div>
+                                        <select class="form-control">
+                                            <option>Seleccione tipo de documento</option>
+                                            <option>Cedula</option>
+                                            <option>Cedula Extranjeria</option>
+                                            <option>Pasaporte</option>
+                                            <option>Tarjeta de indentidad</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group input-group-merge input-group-alternative mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                                        </div>
+                                        <input class="form-control" placeholder="Documento" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group input-group-merge input-group-alternative mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                                        </div>
                                         <input class="form-control" placeholder="Nombre" type="text">
                                     </div>
                                 </div>
@@ -86,11 +108,12 @@
                                 <div class="form-group">
                                     <div class="input-group input-group-merge input-group-alternative mb-3">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                            <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                         </div>
-                                        <input class="form-control" placeholder="Email" type="email">
+                                        <input class="form-control" type="date">
                                     </div>
                                 </div>
+
                                 <div class="form-group">
                                     <div class="input-group input-group-merge input-group-alternative mb-3">
                                         <div class="input-group-prepend">
@@ -107,22 +130,16 @@
                                         <input class="form-control" placeholder="Telefono" type="text">
                                     </div>
                                 </div>
+
                                 <div class="form-group">
                                     <div class="input-group input-group-merge input-group-alternative mb-3">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                                            <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                                         </div>
-                                        <input class="form-control" placeholder="Cedula" type="text">
+                                        <input class="form-control" placeholder="Email" type="email">
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <div class="input-group input-group-merge input-group-alternative mb-3">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
-                                        </div>
-                                        <input class="form-control" type="date">
-                                    </div>
-                                </div>
+
                                 <div class="form-group">
                                     <div class="input-group input-group-merge input-group-alternative">
                                         <div class="input-group-prepend">
@@ -137,8 +154,8 @@
                                         <div class="custom-control custom-control-alternative custom-checkbox">
                                             <input class="custom-control-input" id="customCheckRegister" type="checkbox">
                                             <label class="custom-control-label" for="customCheckRegister">
-                        <span class="text-muted">Acepto <a href="#!">Politica de privacidad</a></span>
-                      </label>
+                                                <span class="text-muted">Acepto <a href="#!">Politica de privacidad</a></span>
+                                            </label>
                                         </div>
                                     </div>
                                 </div>
@@ -154,7 +171,7 @@
     </div>
     <!-- Footer -->
     <?php
-    Include('../Footer.php');
+    include('../Footer.php');
     ?>
     <!-- Argon Scripts -->
     <!-- Core -->

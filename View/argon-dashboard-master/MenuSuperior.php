@@ -1,4 +1,4 @@
-
+<div class="main-content" id="panel">
     <!-- Topnav -->
     <nav class="navbar navbar-top navbar-expand navbar-dark color_fondo border-bottom">
       <div class="container-fluid">

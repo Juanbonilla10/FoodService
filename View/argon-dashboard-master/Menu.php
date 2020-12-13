@@ -3,7 +3,7 @@
       <!-- Brand -->
       <div class="sidenav-header  align-items-center">
         <a class="navbar-brand" href="javascript:void(0)">
-          <img src="../assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
+          <img src="https://home-guest.rappi.com/img/rappi.svg" class="navbar-brand-img" alt="...">
         </a>
       </div>
       <div class="navbar-inner">
@@ -18,13 +18,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="icons.html">
+              <a class="nav-link" href="direccion_index.php">
                 <i class="ni ni-books text-orange"></i>
                 <span class="nav-link-text">Inventario</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="map.html">
+              <a class="nav-link" href="index_productos.php">
                 <i class="ni ni-cart text-primary"></i>
                 <span class="nav-link-text">Ventas</span>
               </a>

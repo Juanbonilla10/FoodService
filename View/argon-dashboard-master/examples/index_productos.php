@@ -91,9 +91,9 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
-                            <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
-                                <div class="modal-content col-lg-12">
+                        <div class="modal fade bd-example-modal-lg" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered modal-" role="document">
+                                <div class="modal-content">
 
                                     <div class="modal-header">
                                         <h6 class="modal-title" id="modal-title-default">Comprar Producto</h6>
@@ -103,30 +103,46 @@
                                     </div>
 
                                     <div class="modal-body">
-                                        <div class="form-group">
-                                            <label for="example-time-input" class="form-control-label">Medio de pago</label>
-                                            <select class="form-control">
-                                                <option>Electronico</option>
-                                                <option>Datafono</option>
-                                                <option>Efectivo</option>
-                                            </select>
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label for="example-time-input" class="form-control-label">Producto</label>
+                                                <input class="form-control" type="text" value="Hamburguesa Doble Carne" id="example-time-input">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="example-time-input" class="form-control-label">Medio de pago</label>
+                                                <select class="form-control">
+                                                    <option>Electronico</option>
+                                                    <option>Datafono</option>
+                                                    <option>Efectivo</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="exampleFormControlTextarea1">Cliente</label>
+                                                <input class="form-control" type="text" value="Juan Carlos" id="example-time-input">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="example-time-input" class="form-control-label">Cantidad</label>
+                                                <input class="form-control" type="number" value="10:30:00" id="example-time-input">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="example-date-input" class="form-control-label">Precio Unitario</label>
+                                                <input class="form-control" type="text" value="15000" id="example-text-input" disabled>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="example-date-input" class="form-control-label">Iva</label>
+                                                <input class="form-control" type="text" value="0" id="example-text-input" disabled>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="example-date-input" class="form-control-label">Total</label>
+                                                <input class="form-control" type="text" value="15000" id="example-text-input" disabled>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="exampleFormControlTextarea1">Comentario</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="example-time-input" class="form-control-label">Cantidad</label>
-                                            <input class="form-control" type="number" value="10:30:00" id="example-time-input">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="example-date-input" class="form-control-label">Precio Unitario</label>
-                                            <input class="form-control" type="text" value="15000" id="example-text-input" disabled>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="example-date-input" class="form-control-label">Total</label>
-                                            <input class="form-control" type="text" value="John Snow" id="example-text-input" disabled>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="example-date-input" class="form-control-label">Iva</label>
-                                            <input class="form-control" type="text" value="0" id="example-text-input" disabled>
-                                        </div>
+
+
 
 
 
