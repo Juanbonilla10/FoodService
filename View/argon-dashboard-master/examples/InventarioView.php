@@ -83,11 +83,30 @@
 
                           </div>
                           <div class="form-group col-6">
+                            <label for="example-text-input" class="form-control-label">Estado</label>
+                            <input type="text" class="form-control form-control-muted" id="Entrada" name="Entrada" placeholder="Entrada" disabled>
+
+                          </div>
+                          <div class="form-group col-6">
                             <label for="example-text-input-input" class="form-control-label">Fecha</label>
                             <input class="form-control" type="date">
                           </div>
+
+                          
+                          <div class="form-group col-6">
+                            <label for="example-text-input-input" class="form-control-label">Producto</label>
+                            <select class="form-control">
+                            <option>Seleccionar prducto</option>
+                             <option>1 2 3</option>
+                              <option>1 2 3</option>
+                               <option>1 2 3</option>
+                                <option>1 2 3</option>
+
+                        </select>
                         </div>
+                         </div>
                       </form>
+
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
@@ -120,9 +139,25 @@
 
                           </div>
                           <div class="form-group col-6">
+                            <label for="example-text-input" class="form-control-label">Estado</label>
+                            <input type="text" class="form-control form-control-muted" id="Salida" name="Salida" placeholder="Salida" disabled>
+
+                          </div>
+                          <div class="form-group col-6">
                             <label for="example-text-input-input" class="form-control-label">Fecha</label>
                             <input class="form-control" type="date">
                           </div>
+                          <div class="form-group col-6">
+                            <label for="example-text-input-input" class="form-control-label">Producto</label>
+                            <select class="form-control">
+                            <option>Seleccionar prducto</option>
+                             <option>1 2 3</option>
+                              <option>1 2 3</option>
+                               <option>1 2 3</option>
+                                <option>1 2 3</option>
+
+                        </select>
+                        </div>
                         </div>
                       </form>
                     </div>
@@ -147,6 +182,8 @@
                     <th>Item</th>
                     <th>Producto</th>
                     <th>Cantidad</th>
+                    <th>Estado</th>
+                    <th>Fecha</th>
 
 
                   </tr>
@@ -161,6 +198,12 @@
                     </td>
                     <td class="budget">
                       20
+                    </td>
+                    <td class="budget">
+                      Entrada
+                    </td>
+                    <td class="budget">
+                      2020-12-24
                     </td>
 
                   </tr>

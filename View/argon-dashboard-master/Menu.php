@@ -2,9 +2,9 @@
     <div class="scrollbar-inner">
       <!-- Brand -->
       <div class="sidenav-header  align-items-center">
-        <a class="navbar-brand" href="javascript:void(0)">
-          <img src="https://home-guest.rappi.com/img/rappi.svg" class="navbar-brand-img" alt="...">
-        </a>
+        
+          <img src="../assets/img/rapfood.jpeg"  style="    width: 230px;" alt="...">
+        
       </div>
       <div class="navbar-inner">
         <!-- Collapse -->
@@ -12,7 +12,7 @@
           <!-- Nav items -->
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="dashboard.html">
+              <a class="nav-link active" href="#">
                 <i class="ni ni-tv-2 text-primary"></i>
                 <span class="nav-link-text">Dashboard</span>
               </a>
